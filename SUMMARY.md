@@ -23,3 +23,7 @@
 - [课表需求分析](demand-analysis-of-curriculum/demand-analysis-of-curriculum.md)
 - [课表总体设计](overall-curriculum-design/overall-curriculum-design.md)
 
+## 成绩查询相关业务
+
+- [1. 成绩查询技术设计实现](design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.md)
+- [2. 教务系统获取数据](edu-sys-get-data/edu-sys-get-data.md)
