@@ -5,13 +5,14 @@ export const siteData = {
   "title": "中北二龙山开发文档",
   "description": "~~~~~~~~~",
   "base": "/",
+  "headTags": [],
   "pages": [
     {
       "title": "1 功能需求",
       "frontmatter": {},
       "regularPath": "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
       "relativePath": "blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.md",
-      "key": "v-eed9b3ec",
+      "key": "v-1a16f09a",
       "path": "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
       "headers": [
         {
@@ -27,18 +28,39 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html",
-      "relativePath": "blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.md",
-      "key": "v-08a2b95c",
-      "path": "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html"
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "1.jpg",
+        "actionText": "来！走起！",
+        "actionLink": "/blog/firstBlog.md",
+        "features": [
+          {
+            "title": "简洁至上",
+            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+          },
+          {
+            "title": "Vue驱动",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "高性能",
+            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2020-present Guowenyuan"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-5e9da452",
+      "path": "/"
     },
     {
       "title": "功能描述",
       "frontmatter": {},
       "regularPath": "/blog/edu-sys-get-data/edu-sys-get-data.html",
       "relativePath": "blog/edu-sys-get-data/edu-sys-get-data.md",
-      "key": "v-7393de48",
+      "key": "v-c629f928",
       "path": "/blog/edu-sys-get-data/edu-sys-get-data.html",
       "headers": [
         {
@@ -74,84 +96,46 @@ export const siteData = {
       ]
     },
     {
-      "title": "vuePress+github搭建博客",
+      "frontmatter": {},
+      "regularPath": "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html",
+      "relativePath": "blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.md",
+      "key": "v-758cebec",
+      "path": "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html"
+    },
+    {
+      "title": "中北二龙山开发文档",
       "frontmatter": {},
       "regularPath": "/blog/firstBlog.html",
       "relativePath": "blog/firstBlog.md",
-      "key": "v-39e8fca3",
-      "path": "/blog/firstBlog.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "一、vuePress本地项目",
-          "slug": "一、vuepress本地项目"
-        },
-        {
-          "level": 3,
-          "title": "二、部署",
-          "slug": "二、部署"
-        },
-        {
-          "level": 3,
-          "title": "最后",
-          "slug": "最后"
-        }
-      ]
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "1.jpg",
-        "actionText": "来！走起！",
-        "actionLink": "/blog/firstBlog.md",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2020-present Guowenyuan"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-7456b332",
-      "path": "/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/global-exception-handling/global-exception-handling.html",
-      "relativePath": "blog/global-exception-handling/global-exception-handling.md",
-      "key": "v-531d3f44",
-      "path": "/blog/global-exception-handling/global-exception-handling.html"
+      "key": "v-4839619a",
+      "path": "/blog/firstBlog.html"
     },
     {
       "frontmatter": {},
       "regularPath": "/blog/global-configuration-item/global-configuration-item.html",
       "relativePath": "blog/global-configuration-item/global-configuration-item.md",
-      "key": "v-00a35cc2",
+      "key": "v-41ae4752",
       "path": "/blog/global-configuration-item/global-configuration-item.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/global-exception-handling/global-exception-handling.html",
+      "relativePath": "blog/global-exception-handling/global-exception-handling.md",
+      "key": "v-177c4aee",
+      "path": "/blog/global-exception-handling/global-exception-handling.html"
     },
     {
       "frontmatter": {},
       "regularPath": "/blog/overall-curriculum-design/overall-curriculum-design.html",
       "relativePath": "blog/overall-curriculum-design/overall-curriculum-design.md",
-      "key": "v-2b606452",
+      "key": "v-6c6b4ee2",
       "path": "/blog/overall-curriculum-design/overall-curriculum-design.html"
     },
     {
       "frontmatter": {},
       "regularPath": "/blog/global-request-specification/global-request-specification.html",
       "relativePath": "blog/global-request-specification/global-request-specification.md",
-      "key": "v-105f0c9c",
+      "key": "v-000e9f2c",
       "path": "/blog/global-request-specification/global-request-specification.html"
     },
     {
@@ -159,7 +143,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/blog/user-query/user-query.html",
       "relativePath": "blog/user-query/user-query.md",
-      "key": "v-573ef59c",
+      "key": "v-01e2cfa8",
       "path": "/blog/user-query/user-query.html",
       "headers": [
         {
@@ -205,11 +189,32 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/blog/user-bind-phone/user-bind-phone.html",
+      "relativePath": "blog/user-bind-phone/user-bind-phone.md",
+      "key": "v-02bc0e3c",
+      "path": "/blog/user-bind-phone/user-bind-phone.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/user-bind-email/user-bind-email.html",
+      "relativePath": "blog/user-bind-email/user-bind-email.md",
+      "key": "v-3da6b72a",
+      "path": "/blog/user-bind-email/user-bind-email.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/proxy-server/proxy-server.html",
+      "relativePath": "blog/proxy-server/proxy-server.md",
+      "key": "v-75098b28",
+      "path": "/blog/proxy-server/proxy-server.html"
+    },
+    {
       "title": "1.1 登录",
       "frontmatter": {},
       "regularPath": "/blog/user-related-services/user-related-services.html",
       "relativePath": "blog/user-related-services/user-related-services.md",
-      "key": "v-9631b9ec",
+      "key": "v-508da4cc",
       "path": "/blog/user-related-services/user-related-services.html",
       "headers": [
         {
@@ -295,25 +300,11 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/blog/user-bind-email/user-bind-email.html",
-      "relativePath": "blog/user-bind-email/user-bind-email.md",
-      "key": "v-9c1c06cc",
-      "path": "/blog/user-bind-email/user-bind-email.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/user-bind-phone/user-bind-phone.html",
-      "relativePath": "blog/user-bind-phone/user-bind-phone.md",
-      "key": "v-72ed3e52",
-      "path": "/blog/user-bind-phone/user-bind-phone.html"
-    },
-    {
       "title": "3.1 更新用户的微信信息",
       "frontmatter": {},
       "regularPath": "/blog/user-update/user-update.html",
       "relativePath": "blog/user-update/user-update.md",
-      "key": "v-fe7404b4",
+      "key": "v-c83c4f94",
       "path": "/blog/user-update/user-update.html",
       "headers": [
         {
@@ -357,25 +348,6 @@ export const siteData = {
           "slug": "示例代码"
         }
       ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/vue.html",
-      "relativePath": "blog/vue.md",
-      "key": "v-d896f28a",
-      "path": "/blog/vue.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "按钮",
-          "slug": "按钮"
-        },
-        {
-          "level": 3,
-          "title": "导入代码段",
-          "slug": "导入代码段"
-        }
-      ]
     }
   ],
   "themeConfig": {
@@ -405,19 +377,6 @@ export const siteData = {
         "首页"
       ],
       {
-        "title": "我的博客",
-        "children": [
-          [
-            "/blog/firstBlog.md",
-            "vuePress+github搭建博客"
-          ],
-          [
-            "/blog/vue.md",
-            "md中使用vue"
-          ]
-        ]
-      },
-      {
         "title": "全局相关配置",
         "children": [
           [
@@ -431,6 +390,10 @@ export const siteData = {
           [
             "/blog/global-request-specification/global-request-specification.md",
             "全局请求规范"
+          ],
+          [
+            "/blog/proxy-server/proxy-server.md",
+            "代理服务器"
           ]
         ]
       },

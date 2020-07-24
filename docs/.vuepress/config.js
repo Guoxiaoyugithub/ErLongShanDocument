@@ -23,19 +23,14 @@ module.exports = {
         ],
         sidebar: [
             ['/', '首页'],
-            {
-                title: '我的博客',
-                children: [
-                    ['/blog/firstBlog.md', 'vuePress+github搭建博客'],
-                    ['/blog/vue.md', 'md中使用vue']
-                ]
-            },
+
             {
                 title: '全局相关配置',
                 children: [
                     ['/blog/global-exception-handling/global-exception-handling.md', '全局异常处理'],
                     ['/blog/global-configuration-item/global-configuration-item.md', '全局配置项'],
                     ['/blog/global-request-specification/global-request-specification.md', '全局请求规范'],
+                    ['/blog/proxy-server/proxy-server.md','代理服务器']
                 ]
             },
             {
