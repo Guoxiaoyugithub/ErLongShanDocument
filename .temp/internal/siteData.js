@@ -8,6 +8,34 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "1.jpg",
+        "actionText": "来！走起！",
+        "actionLink": "/blog/firstBlog.md",
+        "features": [
+          {
+            "title": "简洁至上",
+            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+          },
+          {
+            "title": "Vue驱动",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "高性能",
+            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2020-present Guowenyuan"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-5e9da452",
+      "path": "/"
+    },
+    {
       "title": "1 功能需求",
       "frontmatter": {},
       "regularPath": "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
@@ -33,6 +61,28 @@ export const siteData = {
       "relativePath": "blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.md",
       "key": "v-758cebec",
       "path": "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html",
+      "relativePath": "blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.md",
+      "key": "v-79510628",
+      "path": "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html"
+    },
+    {
+      "title": "中北二龙山开发文档",
+      "frontmatter": {},
+      "regularPath": "/blog/firstBlog.html",
+      "relativePath": "blog/firstBlog.md",
+      "key": "v-4839619a",
+      "path": "/blog/firstBlog.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/global-configuration-item/global-configuration-item.html",
+      "relativePath": "blog/global-configuration-item/global-configuration-item.md",
+      "key": "v-41ae4752",
+      "path": "/blog/global-configuration-item/global-configuration-item.html"
     },
     {
       "title": "功能描述",
@@ -80,54 +130,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "中北二龙山开发文档",
       "frontmatter": {},
-      "regularPath": "/blog/firstBlog.html",
-      "relativePath": "blog/firstBlog.md",
-      "key": "v-4839619a",
-      "path": "/blog/firstBlog.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/global-exception-handling/global-exception-handling.html",
-      "relativePath": "blog/global-exception-handling/global-exception-handling.md",
-      "key": "v-177c4aee",
-      "path": "/blog/global-exception-handling/global-exception-handling.html"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "1.jpg",
-        "actionText": "来！走起！",
-        "actionLink": "/blog/firstBlog.md",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2020-present Guowenyuan"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-5e9da452",
-      "path": "/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/global-configuration-item/global-configuration-item.html",
-      "relativePath": "blog/global-configuration-item/global-configuration-item.md",
-      "key": "v-41ae4752",
-      "path": "/blog/global-configuration-item/global-configuration-item.html"
+      "regularPath": "/blog/proxy-server/proxy-server.html",
+      "relativePath": "blog/proxy-server/proxy-server.md",
+      "key": "v-75098b28",
+      "path": "/blog/proxy-server/proxy-server.html"
     },
     {
       "frontmatter": {},
@@ -138,17 +145,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/blog/proxy-server/proxy-server.html",
-      "relativePath": "blog/proxy-server/proxy-server.md",
-      "key": "v-75098b28",
-      "path": "/blog/proxy-server/proxy-server.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/user-bind-email/user-bind-email.html",
-      "relativePath": "blog/user-bind-email/user-bind-email.md",
-      "key": "v-3da6b72a",
-      "path": "/blog/user-bind-email/user-bind-email.html"
+      "regularPath": "/blog/global-exception-handling/global-exception-handling.html",
+      "relativePath": "blog/global-exception-handling/global-exception-handling.md",
+      "key": "v-177c4aee",
+      "path": "/blog/global-exception-handling/global-exception-handling.html"
     },
     {
       "frontmatter": {},
@@ -156,63 +156,6 @@ export const siteData = {
       "relativePath": "blog/overall-curriculum-design/overall-curriculum-design.md",
       "key": "v-6c6b4ee2",
       "path": "/blog/overall-curriculum-design/overall-curriculum-design.html"
-    },
-    {
-      "title": "3.1 更新用户的微信信息",
-      "frontmatter": {},
-      "regularPath": "/blog/user-update/user-update.html",
-      "relativePath": "blog/user-update/user-update.md",
-      "key": "v-c83c4f94",
-      "path": "/blog/user-update/user-update.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "3.1 更新用户的微信信息",
-          "slug": "_3-1-更新用户的微信信息"
-        },
-        {
-          "level": 3,
-          "title": "功能描述",
-          "slug": "功能描述"
-        },
-        {
-          "level": 3,
-          "title": "请求说明",
-          "slug": "请求说明"
-        },
-        {
-          "level": 3,
-          "title": "请求参数",
-          "slug": "请求参数"
-        },
-        {
-          "level": 3,
-          "title": "返回结果",
-          "slug": "返回结果"
-        },
-        {
-          "level": 3,
-          "title": "返回参数",
-          "slug": "返回参数"
-        },
-        {
-          "level": 3,
-          "title": "错误状态码",
-          "slug": "错误状态码"
-        },
-        {
-          "level": 3,
-          "title": "示例代码",
-          "slug": "示例代码"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/user-bind-phone/user-bind-phone.html",
-      "relativePath": "blog/user-bind-phone/user-bind-phone.md",
-      "key": "v-02bc0e3c",
-      "path": "/blog/user-bind-phone/user-bind-phone.html"
     },
     {
       "title": "1.1 登录",
@@ -305,6 +248,20 @@ export const siteData = {
       ]
     },
     {
+      "frontmatter": {},
+      "regularPath": "/blog/user-bind-email/user-bind-email.html",
+      "relativePath": "blog/user-bind-email/user-bind-email.md",
+      "key": "v-3da6b72a",
+      "path": "/blog/user-bind-email/user-bind-email.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/skimming-lessons-service-api/skimming-lessons-service-api.html",
+      "relativePath": "blog/skimming-lessons-service-api/skimming-lessons-service-api.md",
+      "key": "v-66fc99ec",
+      "path": "/blog/skimming-lessons-service-api/skimming-lessons-service-api.html"
+    },
+    {
       "title": "2.1 用户信息查询",
       "frontmatter": {},
       "regularPath": "/blog/user-query/user-query.html",
@@ -353,6 +310,63 @@ export const siteData = {
           "slug": "示例代码"
         }
       ]
+    },
+    {
+      "title": "3.1 更新用户的微信信息",
+      "frontmatter": {},
+      "regularPath": "/blog/user-update/user-update.html",
+      "relativePath": "blog/user-update/user-update.md",
+      "key": "v-c83c4f94",
+      "path": "/blog/user-update/user-update.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "3.1 更新用户的微信信息",
+          "slug": "_3-1-更新用户的微信信息"
+        },
+        {
+          "level": 3,
+          "title": "功能描述",
+          "slug": "功能描述"
+        },
+        {
+          "level": 3,
+          "title": "请求说明",
+          "slug": "请求说明"
+        },
+        {
+          "level": 3,
+          "title": "请求参数",
+          "slug": "请求参数"
+        },
+        {
+          "level": 3,
+          "title": "返回结果",
+          "slug": "返回结果"
+        },
+        {
+          "level": 3,
+          "title": "返回参数",
+          "slug": "返回参数"
+        },
+        {
+          "level": 3,
+          "title": "错误状态码",
+          "slug": "错误状态码"
+        },
+        {
+          "level": 3,
+          "title": "示例代码",
+          "slug": "示例代码"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/user-bind-phone/user-bind-phone.html",
+      "relativePath": "blog/user-bind-phone/user-bind-phone.md",
+      "key": "v-02bc0e3c",
+      "path": "/blog/user-bind-phone/user-bind-phone.html"
     }
   ],
   "themeConfig": {
@@ -450,6 +464,19 @@ export const siteData = {
           [
             "/blog/edu-sys-get-data/edu-sys-get-data.md",
             "2.教务系统获取数据"
+          ]
+        ]
+      },
+      {
+        "title": "蹭课相关业务",
+        "children": [
+          [
+            "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.md",
+            "1.蹭课设计实现"
+          ],
+          [
+            "/blog/skimming-lessons-service-api/skimming-lessons-service-api.md",
+            "2.蹭课业务接口"
           ]
         ]
       }

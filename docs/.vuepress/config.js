@@ -57,7 +57,13 @@ module.exports = {
                     ['/blog/edu-sys-get-data/edu-sys-get-data.md', '2.教务系统获取数据'],
                 ]
             },
-
+            {
+                title: '蹭课相关业务',
+                children: [
+                    ['/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.md', '1.蹭课设计实现'],
+                    ['/blog/skimming-lessons-service-api/skimming-lessons-service-api.md', '2.蹭课业务接口'],
+                ]
+            },
         ]
     }
 }
