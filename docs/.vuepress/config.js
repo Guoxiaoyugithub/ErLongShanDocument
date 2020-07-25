@@ -1,7 +1,10 @@
 module.exports = {
-    base: '/',
+    base: '/elsdoc/',
     title: '中北二龙山开发文档',
     description: '~~~~~~~~~',
+    configureWebpack: {
+        
+    },
     markdown: {
         lineNumbers: true // 代码块显示行号
     },
@@ -11,13 +14,13 @@ module.exports = {
         // 自定义仓库链接文字。
         repoLabel: 'GitHub',
         nav: [
-            {text: '主页', link: '/'},
-            {text: '博客', link: '/blog/firstBlog.md'},
+            { text: '主页', link: '/' },
+            { text: '博客', link: '/blog/firstBlog.md' },
             {
                 text: '求索',
                 items: [
                     // link：指向链接也可以是外网链接
-                    {text: 'Segmentfault', link: 'https://segmentfault.com/u/mulander'},
+                    { text: 'Segmentfault', link: 'https://segmentfault.com/u/mulander' },
                 ]
             },
         ],
@@ -30,7 +33,7 @@ module.exports = {
                     ['/blog/global-exception-handling/global-exception-handling.md', '全局异常处理'],
                     ['/blog/global-configuration-item/global-configuration-item.md', '全局配置项'],
                     ['/blog/global-request-specification/global-request-specification.md', '全局请求规范'],
-                    ['/blog/proxy-server/proxy-server.md','代理服务器']
+                    ['/blog/proxy-server/proxy-server.md', '代理服务器']
                 ]
             },
             {
