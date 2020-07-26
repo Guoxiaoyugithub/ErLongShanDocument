@@ -20,7 +20,7 @@ module.exports = {
                 text: '求索',
                 items: [
                     // link：指向链接也可以是外网链接
-                    { text: 'Segmentfault', link: 'https://segmentfault.com/u/mulander' },
+                    { text: 'Segmentfault', link: 'https://guowy.club' },
                 ]
             },
         ],

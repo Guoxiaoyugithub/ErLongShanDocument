@@ -28,13 +28,14 @@
 
 ### 返回结果
 
-200 : OK  请求成功，返回token
+
+<response-code status_code="200" status_des="OK"/> 请求成功，返回token
 
 ```json
 { "token": "eyJhbGciOiJ.eyJ1aWQiOjgsInNjb3BlIjo4LCJpYX" }
 ```
 
-401: Unauthorized 无效的openid
+<response-code status_code="401" status_des="Unauthorized"/> 请求成功，返回token无效的openid
 
 ```json
 {
@@ -44,7 +45,7 @@
 }
 ```
 
-503: Service Unavailable 无法与微信服务器建立连接
+<response-code status_code="503" status_des="Service Unavailable"/>无法与微信服务器建立连接
 
 ```json
 {
@@ -70,29 +71,29 @@
 
 ```javascript
 userlogin: function () {
-        wx.login({
-            success(res) {
-                if (res.code) {
-                    wx.request({
-                        url: 'http://localhost:3000/v1/token',
-                        method: 'POST',
-                        data: {
-                            account: res.code,
-                            type:100
-                        },
-                        success(res){
-                            const code = res.statusCode.toString()
-                            if(code.startsWith('2')){
-                                wx.setStorageSync('token', res.data.token)
-                            }
+    wx.login({
+        success(res) {
+            if (res.code) {
+                wx.request({
+                    url: 'http://localhost:3000/v1/token',
+                    method: 'POST',
+                    data: {
+                        account: res.code,
+                        type:100
+                    },
+                    success(res){
+                        const code = res.statusCode.toString()
+                        if(code.startsWith('2')){
+                            wx.setStorageSync('token', res.data.token)
                         }
-                    })
-                } else {
-                    console.log('登录失败！' + res.errMsg)
-                }
+                    }
+                })
+            } else {
+                console.log('登录失败！' + res.errMsg)
             }
-        })
-    }
+        }
+    })
+}
 ```
 
 
@@ -115,13 +116,13 @@ userlogin: function () {
 
 ### 返回结果
 
-200 : OK  请求成功，返回验证结果
+<response-code status_code="200" status_des="OK"/> 请求成功，返回验证结果
 
 ```json
 { result: false }
 ```
 
-200 : OK 请求成功，但无法达到预期，参数错误
+<response-code status_code="200" status_des="OK"/> 请求成功，但无法达到预期，参数错误
 
 ```json
 {
@@ -147,16 +148,16 @@ userlogin: function () {
 
 ```javascript
 verifytoken: function () {
-        wx.request({
-            url: 'http://localhost:3000/v1/token/verify',
-            method: 'POST',
-            data: {
-                token:wx.getStorageSync('token')
-            },
-            success: (res) => {
-                console.log(res.data)
-            }
-        })
-    }
+    wx.request({
+        url: 'http://localhost:3000/v1/token/verify',
+        method: 'POST',
+        data: {
+            token:wx.getStorageSync('token')
+        },
+        success: (res) => {
+            console.log(res.data)
+        }
+    })
+}
 ```
 
