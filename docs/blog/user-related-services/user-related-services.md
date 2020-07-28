@@ -9,13 +9,11 @@
 
 > 请求方式：<request-method http_methods="POST"/> 请求URL ：v1/token
 
-### 请求参数
-
-| 字段 | 字段类型 | 字段说明 |
-| :--- | :--- | :--- |
-| type | Integer | 用户登录的类型 |
-| account | String | 账户 |
-| secret | String | 密码 |
+<request-par title="Request Parameters">
+<request-par-listitem name="type" necess="required" type="Integer" desc="用户的登录类型"></request-par-listitem>
+<request-par-listitem name="account" necess="required" type="String" desc="用户账户"></request-par-listitem>
+<request-par-listitem name="secret" necess="optional" type="String" desc="用户密码"></request-par-listitem>
+</request-par>
 
 登录用户的类型：
 

@@ -9,6 +9,22 @@ import GlobalLayout from "D:\\Program Files\\nodejs\\node_modules\\vuepress\\nod
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-79510628",
+    path: "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-79510628").then(next)
+    },
+  },
+  {
+    name: "v-4839619a",
+    path: "/blog/firstBlog.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4839619a").then(next)
+    },
+  },
+  {
     name: "v-758cebec",
     path: "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html",
     component: GlobalLayout,
@@ -25,19 +41,11 @@ export const routes = [
     },
   },
   {
-    name: "v-79510628",
-    path: "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html",
+    name: "v-41ae4752",
+    path: "/blog/global-configuration-item/global-configuration-item.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-79510628").then(next)
-    },
-  },
-  {
-    name: "v-c629f928",
-    path: "/blog/edu-sys-get-data/edu-sys-get-data.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c629f928").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-41ae4752").then(next)
     },
   },
   {
@@ -53,19 +61,19 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-4839619a",
-    path: "/blog/firstBlog.html",
+    name: "v-c629f928",
+    path: "/blog/edu-sys-get-data/edu-sys-get-data.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4839619a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c629f928").then(next)
     },
   },
   {
-    name: "v-41ae4752",
-    path: "/blog/global-configuration-item/global-configuration-item.html",
+    name: "v-6c6b4ee2",
+    path: "/blog/overall-curriculum-design/overall-curriculum-design.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-41ae4752").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6c6b4ee2").then(next)
     },
   },
   {
@@ -109,27 +117,19 @@ export const routes = [
     },
   },
   {
+    name: "v-3da6b72a",
+    path: "/blog/user-bind-email/user-bind-email.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3da6b72a").then(next)
+    },
+  },
+  {
     name: "v-01e2cfa8",
     path: "/blog/user-query/user-query.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-01e2cfa8").then(next)
-    },
-  },
-  {
-    name: "v-6c6b4ee2",
-    path: "/blog/overall-curriculum-design/overall-curriculum-design.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6c6b4ee2").then(next)
-    },
-  },
-  {
-    name: "v-c83c4f94",
-    path: "/blog/user-update/user-update.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c83c4f94").then(next)
     },
   },
   {
@@ -141,11 +141,11 @@ export const routes = [
     },
   },
   {
-    name: "v-3da6b72a",
-    path: "/blog/user-bind-email/user-bind-email.html",
+    name: "v-c83c4f94",
+    path: "/blog/user-update/user-update.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3da6b72a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c83c4f94").then(next)
     },
   },
   {
