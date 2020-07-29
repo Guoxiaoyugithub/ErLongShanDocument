@@ -4,10 +4,7 @@
 
 用户通过多种方式进行系统的登录，包括通过微信小程序登录，手机号登录，邮箱及密码登录
 
-### 请求说明
-<!-- <request-title title="获取Token" http_methods="POST"></request-title> -->
-
-> 请求方式：<d-req-method http_methods="POST"/> 请求URL ：v1/token
+<d-req-title title="获取token" http_methods="POST" url="https://localhost:3000/v1/token"></d-req-title>
 
 <d-req>
 <d-req-parm title="Request Parameters">

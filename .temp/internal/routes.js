@@ -9,14 +9,6 @@ import GlobalLayout from "D:\\Program Files\\nodejs\\node_modules\\vuepress\\nod
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-758cebec",
-    path: "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-758cebec").then(next)
-    },
-  },
-  {
     name: "v-5e9da452",
     path: "/",
     component: GlobalLayout,
@@ -29,11 +21,35 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-758cebec",
+    path: "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-758cebec").then(next)
+    },
+  },
+  {
     name: "v-1a16f09a",
     path: "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-1a16f09a").then(next)
+    },
+  },
+  {
+    name: "v-4839619a",
+    path: "/blog/firstBlog.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4839619a").then(next)
+    },
+  },
+  {
+    name: "v-c629f928",
+    path: "/blog/edu-sys-get-data/edu-sys-get-data.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c629f928").then(next)
     },
   },
   {
@@ -53,14 +69,6 @@ export const routes = [
     },
   },
   {
-    name: "v-c629f928",
-    path: "/blog/edu-sys-get-data/edu-sys-get-data.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c629f928").then(next)
-    },
-  },
-  {
     name: "v-177c4aee",
     path: "/blog/global-exception-handling/global-exception-handling.html",
     component: GlobalLayout,
@@ -74,14 +82,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-000e9f2c").then(next)
-    },
-  },
-  {
-    name: "v-4839619a",
-    path: "/blog/firstBlog.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4839619a").then(next)
     },
   },
   {
@@ -117,6 +117,14 @@ export const routes = [
     },
   },
   {
+    name: "v-01e2cfa8",
+    path: "/blog/user-query/user-query.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-01e2cfa8").then(next)
+    },
+  },
+  {
     name: "v-02bc0e3c",
     path: "/blog/user-bind-phone/user-bind-phone.html",
     component: GlobalLayout,
@@ -130,14 +138,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-508da4cc").then(next)
-    },
-  },
-  {
-    name: "v-01e2cfa8",
-    path: "/blog/user-query/user-query.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-01e2cfa8").then(next)
     },
   },
   {

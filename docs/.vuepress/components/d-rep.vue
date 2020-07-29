@@ -13,18 +13,22 @@ export default {
 </script>
 
 <style scoped>
+    #app{
+        margin-top: 16px;
+    }
+
     .parameter-content{
         width: 100%;
-        /* height: 300px; */
         border-radius: 3px;
-        padding: 24px;
         border: 1px solid #E6ECF1;
         background: #FFFFFF;
     }
+
     .parameter-content div{
+        margin: 24px;
         margin-bottom: 20px;
     }
     .parameter-content div:last-child{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 </style>
