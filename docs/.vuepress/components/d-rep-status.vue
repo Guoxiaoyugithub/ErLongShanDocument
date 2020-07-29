@@ -9,6 +9,7 @@
 
 <script>
     export default {
+        name:"d-rep-status",
         props:['status_code','status_des']
     }
 </script>

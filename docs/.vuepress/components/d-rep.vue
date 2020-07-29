@@ -8,7 +8,7 @@
 
 <script>
 export default {
-    name:'d-req'
+    name:'d-rep'
 }
 </script>
 

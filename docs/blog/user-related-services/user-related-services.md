@@ -7,7 +7,7 @@
 ### 请求说明
 <!-- <request-title title="获取Token" http_methods="POST"></request-title> -->
 
-> 请求方式：<request-method http_methods="POST"/> 请求URL ：v1/token
+> 请求方式：<d-req-method http_methods="POST"/> 请求URL ：v1/token
 
 <d-req>
 <d-req-parm title="Request Parameters">
@@ -16,9 +16,6 @@
 <d-req-parm-item name="secret" necess="optional" type="String" desc="用户密码"></d-req-parm-item>
 </d-req-parm>
 </d-req>
-
-
-
 
 登录用户的类型：
 
@@ -32,13 +29,21 @@
 ### 返回结果
 
 
-<response-code status_code="200" status_des="OK"/> 请求成功，返回token
+<d-rep>
+<d-rep-title title="请求成功，返回token">
+<d-rep-status status_code="200" status_des="OK"/> 
+</d-rep-title>
+<d-rep-code show_linenum="false">
 
 ```json
 { "token": "eyJhbGciOiJ.eyJ1aWQiOjgsInNjb3BlIjo4LCJpYX" }
 ```
+</d-rep-code>
 
-<response-code status_code="401" status_des="Unauthorized"/> 请求成功，返回token无效的openid
+<d-rep-title title="请求成功，返回token无效的openid">
+<d-rep-status status_code="401" status_des="Unauthorized"/>
+</d-rep-title>
+<d-rep-code show_linenum="false">
 
 ```json
 {
@@ -47,8 +52,12 @@
     "request": "POST /v1/token"
 }
 ```
+</d-rep-code>
 
-<response-code status_code="503" status_des="Service Unavailable"/>无法与微信服务器建立连接
+<d-rep-title title="无法与微信服务器建立连接">
+<d-rep-status status_code="503" status_des="Service Unavailable"/>
+</d-rep-title>
+<d-rep-code show_linenum="false">
 
 ```json
 {
@@ -57,6 +66,8 @@
     "request": "POST /v1/token"
 }
 ```
+</d-rep-code>
+</d-rep>
 
 ### 返回参数
 
@@ -109,7 +120,7 @@ userlogin: function () {
 
 ### 请求说明
 
-> 请求方式：<request-method http_methods="POST"/>  请求URL ：/v1/token/verify
+> 请求方式：<d-req-method http_methods="POST"/>  请求URL ：/v1/token/verify
 
 ### 请求参数
 
@@ -119,13 +130,13 @@ userlogin: function () {
 
 ### 返回结果
 
-<response-code status_code="200" status_des="OK"/> 请求成功，返回验证结果
+<d-rep-status status_code="200" status_des="OK"/> 请求成功，返回验证结果
 
 ```json
 { result: false }
 ```
 
-<response-code status_code="200" status_des="OK"/> 请求成功，但无法达到预期，参数错误
+<d-rep-status status_code="200" status_des="OK"/> 请求成功，但无法达到预期，参数错误
 
 ```json
 {
