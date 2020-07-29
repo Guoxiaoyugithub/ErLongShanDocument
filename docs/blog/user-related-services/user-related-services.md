@@ -9,11 +9,16 @@
 
 > 请求方式：<request-method http_methods="POST"/> 请求URL ：v1/token
 
-<request-par title="Request Parameters">
-<request-par-listitem name="type" necess="required" type="Integer" desc="用户的登录类型"></request-par-listitem>
-<request-par-listitem name="account" necess="required" type="String" desc="用户账户"></request-par-listitem>
-<request-par-listitem name="secret" necess="optional" type="String" desc="用户密码"></request-par-listitem>
-</request-par>
+<d-req>
+<d-req-parm title="Request Parameters">
+<d-req-parm-item name="type" necess="required" type="Integer" desc="用户的登录类型"></d-req-parm-item>
+<d-req-parm-item name="account" necess="required" type="String" desc="用户账户"></d-req-parm-item>
+<d-req-parm-item name="secret" necess="optional" type="String" desc="用户密码"></d-req-parm-item>
+</d-req-parm>
+</d-req>
+
+
+
 
 登录用户的类型：
 

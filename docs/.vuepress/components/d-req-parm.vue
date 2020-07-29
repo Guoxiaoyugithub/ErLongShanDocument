@@ -1,14 +1,11 @@
 <template>
     <div id='app'>
-        <div class="parameter-content">
-            <div class="title">
-                <span>{{title}}</span>
-            </div>
+        <div class="title">
+            <span>{{title}}</span>
+        </div>
 
-            <div class="parameter-list">
-                <slot></slot>
-            </div>
-
+        <div class="parameter-list">
+            <slot></slot>
         </div>
     </div>
 </template>
@@ -20,15 +17,6 @@
 </script>
 
 <style scoped>
-    .parameter-content{
-        width: 100%;
-        /* height: 300px; */
-        border-radius: 3px;
-        padding: 24px;
-        border: 1px solid #E6ECF1;
-        background: #FFFFFF;
-    }
-
     .title{
         width: 100%;
         height: 30px;
@@ -51,7 +39,6 @@
     
     .parameter-list{
         width: 100%;
-        margin: 0;
         display: block;
         padding: 0;
     }
