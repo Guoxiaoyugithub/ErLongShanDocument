@@ -1,8 +1,7 @@
 ## 1.1 登录
 
 ### 功能描述
-
-用户通过多种方式进行系统的登录，包括通过微信小程序登录，手机号登录，邮箱及密码登录
+<d-tips type="succ">用户通过多种方式进行系统的登录，包括通过微信小程序登录，手机号登录，邮箱及密码登录</d-tips>
 
 <d-req-title title="获取token" http_methods="POST" url="https://localhost:3000/v1/token"></d-req-title>
 
