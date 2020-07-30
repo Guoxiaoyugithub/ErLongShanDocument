@@ -15,6 +15,74 @@ export const siteData = {
       "path": "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html"
     },
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "1.jpg",
+        "actionText": "来！走起！",
+        "actionLink": "/blog/firstBlog.md",
+        "features": [
+          {
+            "title": "VuePress",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "Koa",
+            "details": "基于 Node.js 平台的下一代 Web 开发框架。"
+          },
+          {
+            "title": "GraphQL",
+            "details": "对 API 中的数据提供了一套易于理解的完整描述，且没有任何冗余，让 API 更容易地随着时间推移而演进。"
+          },
+          {
+            "title": "Jenkins",
+            "details": "领先的开源自动化服务,用于持续集成和持续交付。"
+          },
+          {
+            "title": "Selenium",
+            "details": "优秀的Web应用程序测试工具,与Python配合进行自动化的数据获取。"
+          },
+          {
+            "title": "PM2",
+            "details": "轻量级的Node.js进程管理工具,支持性能监控，进程守护，负载均衡等功能。"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2020-present Guowenyuan"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-5e9da452",
+      "path": "/"
+    },
+    {
+      "title": "中北二龙山开发文档",
+      "frontmatter": {},
+      "regularPath": "/blog/firstBlog.html",
+      "relativePath": "blog/firstBlog.md",
+      "key": "v-4839619a",
+      "path": "/blog/firstBlog.html"
+    },
+    {
+      "title": "1 功能需求",
+      "frontmatter": {},
+      "regularPath": "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
+      "relativePath": "blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.md",
+      "key": "v-1a16f09a",
+      "path": "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1 功能需求",
+          "slug": "_1-功能需求"
+        },
+        {
+          "level": 3,
+          "title": "2 性能需求及其他需求",
+          "slug": "_2-性能需求及其他需求"
+        }
+      ]
+    },
+    {
       "title": "功能描述",
       "frontmatter": {},
       "regularPath": "/blog/edu-sys-get-data/edu-sys-get-data.html",
@@ -61,17 +129,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html",
-      "relativePath": "blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.md",
-      "key": "v-79510628",
-      "path": "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/blog/global-configuration-item/global-configuration-item.html",
       "relativePath": "blog/global-configuration-item/global-configuration-item.md",
       "key": "v-41ae4752",
       "path": "/blog/global-configuration-item/global-configuration-item.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html",
+      "relativePath": "blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.md",
+      "key": "v-79510628",
+      "path": "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html"
     },
     {
       "frontmatter": {},
@@ -82,10 +150,24 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/blog/global-request-specification/global-request-specification.html",
+      "relativePath": "blog/global-request-specification/global-request-specification.md",
+      "key": "v-000e9f2c",
+      "path": "/blog/global-request-specification/global-request-specification.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/blog/overall-curriculum-design/overall-curriculum-design.html",
       "relativePath": "blog/overall-curriculum-design/overall-curriculum-design.md",
       "key": "v-6c6b4ee2",
       "path": "/blog/overall-curriculum-design/overall-curriculum-design.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/proxy-server/proxy-server.html",
+      "relativePath": "blog/proxy-server/proxy-server.md",
+      "key": "v-75098b28",
+      "path": "/blog/proxy-server/proxy-server.html"
     },
     {
       "frontmatter": {},
@@ -96,30 +178,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/blog/proxy-server/proxy-server.html",
-      "relativePath": "blog/proxy-server/proxy-server.md",
-      "key": "v-75098b28",
-      "path": "/blog/proxy-server/proxy-server.html"
-    },
-    {
-      "title": "1 功能需求",
-      "frontmatter": {},
-      "regularPath": "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
-      "relativePath": "blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.md",
-      "key": "v-1a16f09a",
-      "path": "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "1 功能需求",
-          "slug": "_1-功能需求"
-        },
-        {
-          "level": 3,
-          "title": "2 性能需求及其他需求",
-          "slug": "_2-性能需求及其他需求"
-        }
-      ]
+      "regularPath": "/blog/user-bind-email/user-bind-email.html",
+      "relativePath": "blog/user-bind-email/user-bind-email.md",
+      "key": "v-3da6b72a",
+      "path": "/blog/user-bind-email/user-bind-email.html"
     },
     {
       "frontmatter": {},
@@ -129,18 +191,54 @@ export const siteData = {
       "path": "/blog/user-bind-phone/user-bind-phone.html"
     },
     {
+      "title": "3.1 更新用户的微信信息",
       "frontmatter": {},
-      "regularPath": "/blog/global-request-specification/global-request-specification.html",
-      "relativePath": "blog/global-request-specification/global-request-specification.md",
-      "key": "v-000e9f2c",
-      "path": "/blog/global-request-specification/global-request-specification.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/user-bind-email/user-bind-email.html",
-      "relativePath": "blog/user-bind-email/user-bind-email.md",
-      "key": "v-3da6b72a",
-      "path": "/blog/user-bind-email/user-bind-email.html"
+      "regularPath": "/blog/user-update/user-update.html",
+      "relativePath": "blog/user-update/user-update.md",
+      "key": "v-c83c4f94",
+      "path": "/blog/user-update/user-update.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "3.1 更新用户的微信信息",
+          "slug": "_3-1-更新用户的微信信息"
+        },
+        {
+          "level": 3,
+          "title": "功能描述",
+          "slug": "功能描述"
+        },
+        {
+          "level": 3,
+          "title": "请求说明",
+          "slug": "请求说明"
+        },
+        {
+          "level": 3,
+          "title": "请求参数",
+          "slug": "请求参数"
+        },
+        {
+          "level": 3,
+          "title": "返回结果",
+          "slug": "返回结果"
+        },
+        {
+          "level": 3,
+          "title": "返回参数",
+          "slug": "返回参数"
+        },
+        {
+          "level": 3,
+          "title": "错误状态码",
+          "slug": "错误状态码"
+        },
+        {
+          "level": 3,
+          "title": "示例代码",
+          "slug": "示例代码"
+        }
+      ]
     },
     {
       "title": "1.1 登录",
@@ -219,104 +317,6 @@ export const siteData = {
           "level": 3,
           "title": "示例代码",
           "slug": "示例代码-2"
-        }
-      ]
-    },
-    {
-      "title": "中北二龙山开发文档",
-      "frontmatter": {},
-      "regularPath": "/blog/firstBlog.html",
-      "relativePath": "blog/firstBlog.md",
-      "key": "v-4839619a",
-      "path": "/blog/firstBlog.html"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "1.jpg",
-        "actionText": "来！走起！",
-        "actionLink": "/blog/firstBlog.md",
-        "features": [
-          {
-            "title": "VuePress",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "Koa",
-            "details": "基于 Node.js 平台的下一代 Web 开发框架。"
-          },
-          {
-            "title": "GraphQL",
-            "details": "对 API 中的数据提供了一套易于理解的完整描述，且没有任何冗余，让 API 更容易地随着时间推移而演进。"
-          },
-          {
-            "title": "Jenkins",
-            "details": "领先的开源自动化服务,用于持续集成和持续交付。"
-          },
-          {
-            "title": "Selenium",
-            "details": "优秀的Web应用程序测试工具,与Python配合进行自动化的数据获取。"
-          },
-          {
-            "title": "PM2",
-            "details": "轻量级的Node.js进程管理工具,支持性能监控，进程守护，负载均衡等功能。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2020-present Guowenyuan"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-5e9da452",
-      "path": "/"
-    },
-    {
-      "title": "3.1 更新用户的微信信息",
-      "frontmatter": {},
-      "regularPath": "/blog/user-update/user-update.html",
-      "relativePath": "blog/user-update/user-update.md",
-      "key": "v-c83c4f94",
-      "path": "/blog/user-update/user-update.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "3.1 更新用户的微信信息",
-          "slug": "_3-1-更新用户的微信信息"
-        },
-        {
-          "level": 3,
-          "title": "功能描述",
-          "slug": "功能描述"
-        },
-        {
-          "level": 3,
-          "title": "请求说明",
-          "slug": "请求说明"
-        },
-        {
-          "level": 3,
-          "title": "请求参数",
-          "slug": "请求参数"
-        },
-        {
-          "level": 3,
-          "title": "返回结果",
-          "slug": "返回结果"
-        },
-        {
-          "level": 3,
-          "title": "返回参数",
-          "slug": "返回参数"
-        },
-        {
-          "level": 3,
-          "title": "错误状态码",
-          "slug": "错误状态码"
-        },
-        {
-          "level": 3,
-          "title": "示例代码",
-          "slug": "示例代码"
         }
       ]
     },
