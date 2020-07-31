@@ -1,28 +1,8 @@
 ## 1.1 登录
 
-<d-log title="15.0.0 - 2020-07-20">
-<d-log-item type="Fixed">
-<d-log-item-li>spelling and grammer</d-log-item-li>
-<d-log-item-li>fix typo in element test</d-log-item-li>
-<d-log-item-li>fix svg logos</d-log-item-li>
-</d-log-item>
-<d-log-item type="Change">
-<d-log-item-li>update sponsors</d-log-item-li>
-</d-log-item>
-<d-log-item type="Add">
-<d-log-item-li>add issue template config.yml</d-log-item-li>
-</d-log-item>
-<d-log-item type="Remove">
-<d-log-item-li>Removes duplicate values from the attr list</d-log-item-li>
-</d-log-item>
-</d-log>
-
-
 ### 功能描述
 <d-tips type="succ">用户通过多种方式进行系统的登录，包括通过微信小程序登录，手机号登录，邮箱及密码登录</d-tips>
-<d-tips type="warn">在Markdown文件中使用组件嵌套时请勿将代码进行缩进，否则VuePress会当做普通文本或者代码片段进行在解析。</d-tips>
-<d-tips type="point">一个 VuePress 主题应该负责整个网站的布局和交互细节。在 VuePress 中，目前自带了一个默认的主题（正是你现在所看到的），它是为技术文档而设计的。</d-tips>
-<d-tips type="attention">用户通过多种方式进行系统的登录，包括通过微信小程序登录，手机号登录，邮箱及密码登录</d-tips>
+
 <d-req-title title="获取token" http_methods="POST" url="https://localhost:3000/v1/token"></d-req-title>
 
 <d-req>

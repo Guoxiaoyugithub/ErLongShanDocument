@@ -51,6 +51,7 @@ module.exports = {
                 children: [
                     ['/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.md', '课表需求分析'],
                     ['/blog/overall-curriculum-design/overall-curriculum-design.md', '课表总体设计'],
+                    ['/blog/query-curriculum-by-classid/query-curriculum-by-classid.md', '根据班级查询课表'],
                 ]
             },
             {
