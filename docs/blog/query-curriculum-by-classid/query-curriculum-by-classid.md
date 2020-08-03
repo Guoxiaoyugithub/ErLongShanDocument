@@ -4,7 +4,7 @@
 
 <d-tips type="point">由于课表部分的数据较为复杂多变，在系统设计上并没有使用 Restful 而使用了 GraphQL 作为查询语言。</d-tips>
 
-<d-req-title title="获取token" http_methods="GET" url="http://49.233.80.143:4000/graphql"></d-req-title>
+<d-req-title title="根据班级号查询课表(区分大小写)" http_methods="GET" url="http://49.233.80.143:4000/graphql"></d-req-title>
 
 <d-req>
 <d-req-parm title="Request Parameters">
