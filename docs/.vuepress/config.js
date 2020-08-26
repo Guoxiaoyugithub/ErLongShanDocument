@@ -30,6 +30,7 @@ module.exports = {
             {
                 title: '全局相关配置',
                 children: [
+                    ['/blog/global-api-summary/global-api-summary.md','全局接口总览'],
                     ['/blog/global-exception-handling/global-exception-handling.md', '全局异常处理'],
                     ['/blog/global-configuration-item/global-configuration-item.md', '全局配置项'],
                     ['/blog/global-request-specification/global-request-specification.md', '全局请求规范'],

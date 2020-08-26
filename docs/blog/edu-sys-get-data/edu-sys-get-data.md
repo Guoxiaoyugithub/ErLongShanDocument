@@ -3,9 +3,7 @@
 
 用户通过输入自己的账号和密码，来查询自己教务系统中的成绩
 
-### 请求说明
-
-> 请求方式：<request-method http_methods="GET"/>  请求URL ：v1/grades/getgrades
+<d-req-title title="教务系统成绩查询" http_methods="GET" url="https://miniapp.zb2l3.com/user/v1/grades/getgrades"></d-req-title>
 
 ### 请求参数
 

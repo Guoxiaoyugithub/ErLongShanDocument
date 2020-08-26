@@ -4,10 +4,7 @@
 
 通过openid查询用户的信息，主要包括用户的数据库id，用户的绑定邮箱以及绑定手机号。因为系统的鉴权机制设计的是一种通用鉴权机制，所以在token的加密中没有包含openid等小程序特有的属性。所以一些接口需要通过header传递openid参数。
 
-### 请求说明
-
-> 请求方式：GET  请求URL ：**v1/user/getinfor**
-
+<d-req-title title="用户信息查询" http_methods="GET" url="https://miniapp.zb2l3.com/user/v1/user/getinfor"></d-req-title>
 ### 请求参数
 
 | 字段             | 字段类型 | 字段说明                           |
@@ -60,7 +57,7 @@
 userlogin: function () {
         const that = this
         wx.request({
-          url: 'http://locahost:3000/v1/user/getinfor',
+          url: 'https://miniapp.zb2l3.com/user/v1/user/getinfor',
           method:'GET',
           header:{
               openid:'otXqb5S1_gqZyOEuOhulI1j0fBt0',

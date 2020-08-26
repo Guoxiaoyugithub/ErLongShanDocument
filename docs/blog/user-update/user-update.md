@@ -4,9 +4,7 @@
 
 小程序端通过用户授权后获取用户的个人信息，之后将信息上传到服务器。
 
-### 请求说明
-
-> 请求方式：GET  请求URL ：**/v1/user/updatewxinfo**
+<d-req-title title="用户信息更新" http_methods="POST" url="https://miniapp.zb2l3.com/user/v1/user/updatewxinfor"></d-req-title>
 
 ### 请求参数
 
@@ -51,14 +49,14 @@
 bindGetUserInfo: function (e) {
     const userInfo = e.detail.userInfo
     wx.request({
-        url: 'http://localhost:3000/v1/user/updatewxinfo',
+        url: 'https://miniapp.zb2l3.com/user/v1/user/updatewxinfo',
         method: 'POST',
         header: {
-            openid: 'otXqb5S1_gqZyOEuOhul',
+            openid: wx.getStorageSync('openid'),
             Authorization: this._echcode(wx.getStorageSync('token'))
         },
         data: {
-            openid: 'otXqb5S1_gqZyOEuOhul',
+            openid: wx.getStorageSync('openid'),
             nickname: userInfo.nickName,
             gender: userInfo.gender,
             city: userInfo.city,

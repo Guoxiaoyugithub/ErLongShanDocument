@@ -3,7 +3,7 @@
 ### 功能描述
 <d-tips type="succ">用户通过多种方式进行系统的登录，包括通过微信小程序登录，手机号登录，邮箱及密码登录</d-tips>
 
-<d-req-title title="获取token" http_methods="POST" url="https://localhost:3000/v1/token"></d-req-title>
+<d-req-title title="获取token" http_methods="POST" url="https://miniapp.zb2l3.com/user/v1/token"></d-req-title>
 
 <d-req>
 <d-req-parm title="Request Parameters">
@@ -85,7 +85,7 @@ userlogin: function () {
         success(res) {
             if (res.code) {
                 wx.request({
-                    url: 'http://localhost:3000/v1/token',
+                    url: 'https://miniapp.zb2l3.com/user/v1/token',
                     method: 'POST',
                     data: {
                         account: res.code,
@@ -114,9 +114,7 @@ userlogin: function () {
 
 客户端主动验证token是否合法或者token是否过期，然后决定是否获取新的token
 
-### 请求说明
-
-> 请求方式：<d-req-method http_methods="POST"/>  请求URL ：/v1/token/verify
+<d-req-title title="验证token" http_methods="POST" url="https://miniapp.zb2l3.com/user/v1/token/verify"></d-req-title>
 
 ### 请求参数
 
@@ -159,7 +157,7 @@ userlogin: function () {
 ```javascript
 verifytoken: function () {
     wx.request({
-        url: 'http://localhost:3000/v1/token/verify',
+        url: 'https://miniapp.zb2l3.com/user/v1/token/verify',
         method: 'POST',
         data: {
             token:wx.getStorageSync('token')
