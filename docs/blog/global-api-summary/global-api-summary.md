@@ -22,3 +22,9 @@
 
 </br>
 <d-req-title title="教务系统成绩查询" http_methods="GET" url="https://miniapp.zb2l3.com/user/v1/grades/getgrades"></d-req-title>
+
+</br>
+<d-req-title title="校园导览相关业务" http_methods="GET" url="https://miniapp.zb2l3.com/schoolmap"></d-req-title>
+
+</br>
+<d-req-title title="校园电话簿相关业务" http_methods="GET" url="https://miniapp.zb2l3.com/phonebook"></d-req-title>
