@@ -63,6 +63,18 @@ module.exports = {
                 ]
             },
             {
+                title: '校园导览相关',
+                children:[
+                    ['/blog/school-nav/school-nav.md','读取校园导览的数据']
+                ]
+            },
+            {
+                title: '校园电话本相关',
+                children:[
+                    ['/blog/schoolphonebook/schoolphonebook.md','读取校园电话本的数据']
+                ]
+            },
+            {
                 title: '蹭课相关业务',
                 children: [
                     ['/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.md', '1.蹭课设计实现'],

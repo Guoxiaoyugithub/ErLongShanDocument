@@ -29,11 +29,19 @@ export const routes = [
     },
   },
   {
-    name: "v-c629f928",
-    path: "/blog/edu-sys-get-data/edu-sys-get-data.html",
+    name: "v-1a16f09a",
+    path: "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c629f928").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1a16f09a").then(next)
+    },
+  },
+  {
+    name: "v-79510628",
+    path: "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-79510628").then(next)
     },
   },
   {
@@ -45,11 +53,27 @@ export const routes = [
     },
   },
   {
-    name: "v-79510628",
-    path: "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html",
+    name: "v-28b87228",
+    path: "/blog/global-api-summary/global-api-summary.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-79510628").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-28b87228").then(next)
+    },
+  },
+  {
+    name: "v-41ae4752",
+    path: "/blog/global-configuration-item/global-configuration-item.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-41ae4752").then(next)
+    },
+  },
+  {
+    name: "v-c629f928",
+    path: "/blog/edu-sys-get-data/edu-sys-get-data.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c629f928").then(next)
     },
   },
   {
@@ -69,51 +93,11 @@ export const routes = [
     },
   },
   {
-    name: "v-41ae4752",
-    path: "/blog/global-configuration-item/global-configuration-item.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-41ae4752").then(next)
-    },
-  },
-  {
-    name: "v-28b87228",
-    path: "/blog/global-api-summary/global-api-summary.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-28b87228").then(next)
-    },
-  },
-  {
-    name: "v-1a16f09a",
-    path: "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1a16f09a").then(next)
-    },
-  },
-  {
     name: "v-6c6b4ee2",
     path: "/blog/overall-curriculum-design/overall-curriculum-design.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6c6b4ee2").then(next)
-    },
-  },
-  {
-    name: "v-3da6b72a",
-    path: "/blog/user-bind-email/user-bind-email.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3da6b72a").then(next)
-    },
-  },
-  {
-    name: "v-75098b28",
-    path: "/blog/proxy-server/proxy-server.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-75098b28").then(next)
     },
   },
   {
@@ -125,19 +109,35 @@ export const routes = [
     },
   },
   {
+    name: "v-75098b28",
+    path: "/blog/proxy-server/proxy-server.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-75098b28").then(next)
+    },
+  },
+  {
+    name: "v-e2a77554",
+    path: "/blog/schoolphonebook/schoolphonebook.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e2a77554").then(next)
+    },
+  },
+  {
+    name: "v-d1eea5a8",
+    path: "/blog/school-nav/school-nav.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d1eea5a8").then(next)
+    },
+  },
+  {
     name: "v-66fc99ec",
     path: "/blog/skimming-lessons-service-api/skimming-lessons-service-api.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-66fc99ec").then(next)
-    },
-  },
-  {
-    name: "v-01e2cfa8",
-    path: "/blog/user-query/user-query.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-01e2cfa8").then(next)
     },
   },
   {
@@ -149,11 +149,27 @@ export const routes = [
     },
   },
   {
+    name: "v-01e2cfa8",
+    path: "/blog/user-query/user-query.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-01e2cfa8").then(next)
+    },
+  },
+  {
     name: "v-508da4cc",
     path: "/blog/user-related-services/user-related-services.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-508da4cc").then(next)
+    },
+  },
+  {
+    name: "v-3da6b72a",
+    path: "/blog/user-bind-email/user-bind-email.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3da6b72a").then(next)
     },
   },
   {
