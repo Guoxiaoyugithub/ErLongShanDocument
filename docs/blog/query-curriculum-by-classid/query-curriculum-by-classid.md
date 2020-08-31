@@ -73,7 +73,7 @@ GraphQL 支持自定义组合查询的字段与结果，系统中提供的字段
 
 ```js
 query {
-  getSysCurriculumByClassId(class_id:"16140Y02"){
+  getSysCurriculumByClassId(class_id:"17010141",yearRange:"2020-2021",semester:"1"){
         _id,
         year,
         yearRange,
