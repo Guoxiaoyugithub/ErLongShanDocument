@@ -156,5 +156,75 @@ query{
 }
 ```
 
+### 功能描述
+
+根据关键字进行标题的迷糊查询
+
+<d-req-title title="模糊查询" http_methods="GET" url="https://miniapp.zb2l3.com/phonebook"></d-req-title>
+
+### 请求参数
+
+| 字段  | 字段类型 | 字段说明          |
+| :---- | :------- | :---------------- |
+| query | String   | GraphQL查询模型 |
+
+### 组合示例
+```javascript
+query{
+  getCallNumByKeyWords(keywords:"党委"){
+    _id,
+    company_name,
+    company_call_num,
+    company_contact,
+    company_contact_mobile,
+    detail_address,
+    latitude,
+    longitude,
+    company_info_pic,
+    company_info_text,
+    building_name,
+    company_url,
+    parent_id,
+    status,
+    created_at,
+    updated_at,
+    id_label
+  }
+}
+```
+
+### 返回结果
+
+<d-rep-status status_code="200" status_des="OK"/> 请求成功，返回验证结果
+
+```json
+{
+    "data": {
+        "getCallNumByKeyWords": [
+            {
+                "_id": "5f478388232c794a49afc18a",
+                "company_name": "朔州校区党委副书记、 纪委书记兼副主任",
+                "company_call_num": "0349-5686105",
+                "company_contact": "",
+                "company_contact_mobile": "",
+                "detail_address": "治学楼103",
+                "latitude": "",
+                "longitude": "",
+                "company_info_pic": "",
+                "company_info_text": "",
+                "building_name": "",
+                "company_url": "http://neuc.nuc.edu.cn/",
+                "parent_id": "5b7ebd1b5e6a271b4b3482c2",
+                "status": 1,
+                "created_at": 1535857168,
+                "updated_at": 1535857168,
+                "id_label": "5b8b521040af9927efd23645"
+            },
+      ....
+
+    ]}
+}
+```
+
 ### 示例代码参考校园导览部分
 
