@@ -81,6 +81,13 @@ module.exports = {
                     ['/blog/skimming-lessons-service-api/skimming-lessons-service-api.md', '2.蹭课业务接口'],
                 ]
             },
+            {
+                title: '自习室查询业务',
+                children: [
+                    ['/blog/study-room/study-room.md', '1.自习室查询'],
+                    ['/blog/study-room-course/study-room-course.md', '2.自习室课表查询'],
+                ]
+            },
         ]
     }
 }

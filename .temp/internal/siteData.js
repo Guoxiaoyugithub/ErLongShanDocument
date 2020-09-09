@@ -48,13 +48,6 @@ export const siteData = {
       "path": "/"
     },
     {
-      "frontmatter": {},
-      "regularPath": "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html",
-      "relativePath": "blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.md",
-      "key": "v-758cebec",
-      "path": "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html"
-    },
-    {
       "title": "1 功能需求",
       "frontmatter": {},
       "regularPath": "/blog/demand-analysis-of-curriculum/demand-analysis-of-curriculum.html",
@@ -76,32 +69,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html",
-      "relativePath": "blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.md",
-      "key": "v-79510628",
-      "path": "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html"
-    },
-    {
-      "title": "中北二龙山开发文档",
-      "frontmatter": {},
-      "regularPath": "/blog/firstBlog.html",
-      "relativePath": "blog/firstBlog.md",
-      "key": "v-4839619a",
-      "path": "/blog/firstBlog.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/global-api-summary/global-api-summary.html",
-      "relativePath": "blog/global-api-summary/global-api-summary.md",
-      "key": "v-28b87228",
-      "path": "/blog/global-api-summary/global-api-summary.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/global-configuration-item/global-configuration-item.html",
-      "relativePath": "blog/global-configuration-item/global-configuration-item.md",
-      "key": "v-41ae4752",
-      "path": "/blog/global-configuration-item/global-configuration-item.html"
+      "regularPath": "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html",
+      "relativePath": "blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.md",
+      "key": "v-758cebec",
+      "path": "/blog/design-and-implementation-of-grade-query/design-and-implementation-of-grade-query.html"
     },
     {
       "title": "功能描述",
@@ -145,10 +116,46 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html",
+      "relativePath": "blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.md",
+      "key": "v-79510628",
+      "path": "/blog/design-and-implementation-of-sub-lessons/design-and-implementation-of-sub-lessons.html"
+    },
+    {
+      "title": "中北二龙山开发文档",
+      "frontmatter": {},
+      "regularPath": "/blog/firstBlog.html",
+      "relativePath": "blog/firstBlog.md",
+      "key": "v-4839619a",
+      "path": "/blog/firstBlog.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/global-api-summary/global-api-summary.html",
+      "relativePath": "blog/global-api-summary/global-api-summary.md",
+      "key": "v-28b87228",
+      "path": "/blog/global-api-summary/global-api-summary.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/global-configuration-item/global-configuration-item.html",
+      "relativePath": "blog/global-configuration-item/global-configuration-item.md",
+      "key": "v-41ae4752",
+      "path": "/blog/global-configuration-item/global-configuration-item.html"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/blog/global-exception-handling/global-exception-handling.html",
       "relativePath": "blog/global-exception-handling/global-exception-handling.md",
       "key": "v-177c4aee",
       "path": "/blog/global-exception-handling/global-exception-handling.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/overall-curriculum-design/overall-curriculum-design.html",
+      "relativePath": "blog/overall-curriculum-design/overall-curriculum-design.md",
+      "key": "v-6c6b4ee2",
+      "path": "/blog/overall-curriculum-design/overall-curriculum-design.html"
     },
     {
       "frontmatter": {},
@@ -159,10 +166,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/blog/overall-curriculum-design/overall-curriculum-design.html",
-      "relativePath": "blog/overall-curriculum-design/overall-curriculum-design.md",
-      "key": "v-6c6b4ee2",
-      "path": "/blog/overall-curriculum-design/overall-curriculum-design.html"
+      "regularPath": "/blog/proxy-server/proxy-server.html",
+      "relativePath": "blog/proxy-server/proxy-server.md",
+      "key": "v-75098b28",
+      "path": "/blog/proxy-server/proxy-server.html"
     },
     {
       "title": "课表查询",
@@ -185,11 +192,44 @@ export const siteData = {
       ]
     },
     {
+      "title": "功能描述",
       "frontmatter": {},
-      "regularPath": "/blog/proxy-server/proxy-server.html",
-      "relativePath": "blog/proxy-server/proxy-server.md",
-      "key": "v-75098b28",
-      "path": "/blog/proxy-server/proxy-server.html"
+      "regularPath": "/blog/school-nav/school-nav.html",
+      "relativePath": "blog/school-nav/school-nav.md",
+      "key": "v-d1eea5a8",
+      "path": "/blog/school-nav/school-nav.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "功能描述",
+          "slug": "功能描述"
+        },
+        {
+          "level": 3,
+          "title": "请求参数",
+          "slug": "请求参数"
+        },
+        {
+          "level": 3,
+          "title": "组合示例",
+          "slug": "组合示例"
+        },
+        {
+          "level": 3,
+          "title": "返回结果",
+          "slug": "返回结果"
+        },
+        {
+          "level": 3,
+          "title": "返回参数",
+          "slug": "返回参数"
+        },
+        {
+          "level": 3,
+          "title": "示例代码",
+          "slug": "示例代码"
+        }
+      ]
     },
     {
       "title": "功能描述",
@@ -241,6 +281,26 @@ export const siteData = {
         },
         {
           "level": 3,
+          "title": "功能描述",
+          "slug": "功能描述-3"
+        },
+        {
+          "level": 3,
+          "title": "请求参数",
+          "slug": "请求参数-3"
+        },
+        {
+          "level": 3,
+          "title": "组合示例",
+          "slug": "组合示例-3"
+        },
+        {
+          "level": 3,
+          "title": "返回结果",
+          "slug": "返回结果-3"
+        },
+        {
+          "level": 3,
           "title": "示例代码参考校园导览部分",
           "slug": "示例代码参考校园导览部分"
         }
@@ -249,10 +309,10 @@ export const siteData = {
     {
       "title": "功能描述",
       "frontmatter": {},
-      "regularPath": "/blog/school-nav/school-nav.html",
-      "relativePath": "blog/school-nav/school-nav.md",
-      "key": "v-d1eea5a8",
-      "path": "/blog/school-nav/school-nav.html",
+      "regularPath": "/blog/study-room-course/study-room-course.html",
+      "relativePath": "blog/study-room-course/study-room-course.md",
+      "key": "v-5425f8fe",
+      "path": "/blog/study-room-course/study-room-course.html",
       "headers": [
         {
           "level": 3,
@@ -266,8 +326,87 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "组合示例",
-          "slug": "组合示例"
+          "title": "返回结果",
+          "slug": "返回结果"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/skimming-lessons-service-api/skimming-lessons-service-api.html",
+      "relativePath": "blog/skimming-lessons-service-api/skimming-lessons-service-api.md",
+      "key": "v-66fc99ec",
+      "path": "/blog/skimming-lessons-service-api/skimming-lessons-service-api.html"
+    },
+    {
+      "title": "功能描述",
+      "frontmatter": {},
+      "regularPath": "/blog/study-room/study-room.html",
+      "relativePath": "blog/study-room/study-room.md",
+      "key": "v-2a142b6c",
+      "path": "/blog/study-room/study-room.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "功能描述",
+          "slug": "功能描述"
+        },
+        {
+          "level": 3,
+          "title": "请求参数",
+          "slug": "请求参数"
+        },
+        {
+          "level": 3,
+          "title": "返回结果",
+          "slug": "返回结果"
+        },
+        {
+          "level": 3,
+          "title": "功能描述",
+          "slug": "功能描述-2"
+        },
+        {
+          "level": 3,
+          "title": "请求参数",
+          "slug": "请求参数-2"
+        },
+        {
+          "level": 3,
+          "title": "返回结果",
+          "slug": "返回结果-2"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/blog/user-bind-email/user-bind-email.html",
+      "relativePath": "blog/user-bind-email/user-bind-email.md",
+      "key": "v-3da6b72a",
+      "path": "/blog/user-bind-email/user-bind-email.html"
+    },
+    {
+      "title": "2.1 用户信息查询",
+      "frontmatter": {},
+      "regularPath": "/blog/user-query/user-query.html",
+      "relativePath": "blog/user-query/user-query.md",
+      "key": "v-01e2cfa8",
+      "path": "/blog/user-query/user-query.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "2.1 用户信息查询",
+          "slug": "_2-1-用户信息查询"
+        },
+        {
+          "level": 3,
+          "title": "功能描述",
+          "slug": "功能描述"
+        },
+        {
+          "level": 3,
+          "title": "请求参数",
+          "slug": "请求参数"
         },
         {
           "level": 3,
@@ -281,17 +420,15 @@ export const siteData = {
         },
         {
           "level": 3,
+          "title": "错误状态码",
+          "slug": "错误状态码"
+        },
+        {
+          "level": 3,
           "title": "示例代码",
           "slug": "示例代码"
         }
       ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/skimming-lessons-service-api/skimming-lessons-service-api.html",
-      "relativePath": "blog/skimming-lessons-service-api/skimming-lessons-service-api.md",
-      "key": "v-66fc99ec",
-      "path": "/blog/skimming-lessons-service-api/skimming-lessons-service-api.html"
     },
     {
       "title": "发送短信",
@@ -314,17 +451,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "2.1 用户信息查询",
+      "title": "3.1 更新用户的微信信息",
       "frontmatter": {},
-      "regularPath": "/blog/user-query/user-query.html",
-      "relativePath": "blog/user-query/user-query.md",
-      "key": "v-01e2cfa8",
-      "path": "/blog/user-query/user-query.html",
+      "regularPath": "/blog/user-update/user-update.html",
+      "relativePath": "blog/user-update/user-update.md",
+      "key": "v-c83c4f94",
+      "path": "/blog/user-update/user-update.html",
       "headers": [
         {
           "level": 2,
-          "title": "2.1 用户信息查询",
-          "slug": "_2-1-用户信息查询"
+          "title": "3.1 更新用户的微信信息",
+          "slug": "_3-1-更新用户的微信信息"
         },
         {
           "level": 3,
@@ -430,58 +567,6 @@ export const siteData = {
           "level": 3,
           "title": "示例代码",
           "slug": "示例代码-2"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/blog/user-bind-email/user-bind-email.html",
-      "relativePath": "blog/user-bind-email/user-bind-email.md",
-      "key": "v-3da6b72a",
-      "path": "/blog/user-bind-email/user-bind-email.html"
-    },
-    {
-      "title": "3.1 更新用户的微信信息",
-      "frontmatter": {},
-      "regularPath": "/blog/user-update/user-update.html",
-      "relativePath": "blog/user-update/user-update.md",
-      "key": "v-c83c4f94",
-      "path": "/blog/user-update/user-update.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "3.1 更新用户的微信信息",
-          "slug": "_3-1-更新用户的微信信息"
-        },
-        {
-          "level": 3,
-          "title": "功能描述",
-          "slug": "功能描述"
-        },
-        {
-          "level": 3,
-          "title": "请求参数",
-          "slug": "请求参数"
-        },
-        {
-          "level": 3,
-          "title": "返回结果",
-          "slug": "返回结果"
-        },
-        {
-          "level": 3,
-          "title": "返回参数",
-          "slug": "返回参数"
-        },
-        {
-          "level": 3,
-          "title": "错误状态码",
-          "slug": "错误状态码"
-        },
-        {
-          "level": 3,
-          "title": "示例代码",
-          "slug": "示例代码"
         }
       ]
     }
@@ -620,6 +705,19 @@ export const siteData = {
           [
             "/blog/skimming-lessons-service-api/skimming-lessons-service-api.md",
             "2.蹭课业务接口"
+          ]
+        ]
+      },
+      {
+        "title": "自习室查询业务",
+        "children": [
+          [
+            "/blog/study-room/study-room.md",
+            "1.自习室查询"
+          ],
+          [
+            "/blog/study-room-course/study-room-course.md",
+            "2.自习室课表查询"
           ]
         ]
       }
