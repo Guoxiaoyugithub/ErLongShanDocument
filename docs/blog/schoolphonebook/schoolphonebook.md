@@ -231,7 +231,7 @@ query{
 
 查询电话簿首屏分类（parent_id为："0"）
 
-<d-req-title title="模糊查询" http_methods="GET" url="https://miniapp.zb2l3.com/phonebook"></d-req-title>
+<d-req-title title="首屏分类查询" http_methods="GET" url="https://miniapp.zb2l3.com/phonebook"></d-req-title>
 
 ### 请求参数
 
@@ -288,7 +288,7 @@ query{
 
 查询父分类下的子分类
 
-<d-req-title title="模糊查询" http_methods="GET" url="https://miniapp.zb2l3.com/phonebook"></d-req-title>
+<d-req-title title="查询父分类下的子分类" http_methods="GET" url="https://miniapp.zb2l3.com/phonebook"></d-req-title>
 
 ### 请求参数
 
