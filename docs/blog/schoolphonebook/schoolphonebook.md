@@ -226,5 +226,130 @@ query{
 }
 ```
 
+
+### 功能描述
+
+查询电话簿首屏分类（parent_id为："0"）
+
+<d-req-title title="模糊查询" http_methods="GET" url="https://miniapp.zb2l3.com/phonebook"></d-req-title>
+
+### 请求参数
+
+| 字段  | 字段类型 | 字段说明          |
+| :---- | :------- | :---------------- |
+| query | String   | GraphQL查询模型 |
+
+### 组合示例
+```javascript
+query{
+  getCallnumIndexCategory{
+    _id,
+    class_name,
+    class_url,
+    parent_id,
+    view_index,
+    isPublic,
+    status,
+    created_at,
+    updated_at,
+    id_label
+  }
+}
+```
+
+### 返回结果
+
+<d-rep-status status_code="200" status_des="OK"/> 请求成功
+
+```json
+{
+    "data": {
+        "getCallnumIndexCategory": [
+            {
+                "_id": "5f477848437add9945fdedad",
+                "class_name": "常用",
+                "class_url": "",
+                "parent_id": "0",
+                "view_index": 1,
+                "isPublic": 1,
+                "status": 1,
+                "created_at": 1535031020,
+                "updated_at": 1535120880,
+                "id_label": "5b7eb6ed5e6a271572486efa"
+            },
+      ....
+
+    ]}
+}
+```
+
+
+### 功能描述
+
+查询父分类下的子分类
+
+<d-req-title title="模糊查询" http_methods="GET" url="https://miniapp.zb2l3.com/phonebook"></d-req-title>
+
+### 请求参数
+
+| 字段  | 字段类型 | 字段说明          |
+| :---- | :------- | :---------------- |
+| query | String   | GraphQL查询模型 |
+
+### 组合示例
+```javascript
+query{
+  getCallnumChildCategory(parent_id:"5b7eb6ed5e6a271572486efa"){
+    _id
+    class_name
+    class_url
+    parent_id
+    view_index
+    isPublic
+    status
+    created_at
+    updated_at
+    id_label
+  }
+}
+```
+
+### 返回结果
+
+<d-rep-status status_code="200" status_des="OK"/> 请求成功
+
+```json
+{
+    "data": {
+        "getCallnumChildCategory": [
+            {
+                "_id": "5f477848437add9945fdedac",
+                "class_name": "系统推荐",
+                "class_url": "",
+                "parent_id": "5b7eb6ed5e6a271572486efa",
+                "view_index": 4,
+                "isPublic": 1,
+                "status": 1,
+                "created_at": 1535122866,
+                "updated_at": 1535977660,
+                "id_label": "5b801db229844a23acaa9e71"
+            },
+            {
+                "_id": "5f477848437add9945fdedab",
+                "class_name": "生活服务(常用)",
+                "class_url": "",
+                "parent_id": "5b7eb6ed5e6a271572486efa",
+                "view_index": 2,
+                "isPublic": 1,
+                "status": 1,
+                "created_at": 1535122844,
+                "updated_at": 1535122844,
+                "id_label": "5b801d9c29844a2953c08a91"
+            },
+      ....
+
+    ]}
+}
+```
 ### 示例代码参考校园导览部分
 
